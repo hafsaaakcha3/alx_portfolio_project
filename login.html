@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration and Questionnaire</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="container">
+        <img src="image/logo.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+                <li><a href="types.html">Types</a></li>
+                <li><a href="artisans and chefs.html">Artisans and Chefs</a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="Login.html">Login</a></li> 
+        </ul>
+        <h1 id="form-title">Register</h1>
+
+        <form id="main-form">
+            <!-- Registration Section -->
+            <div id="registration-section" class="form-section">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="number-phone">Phone Number</label>
+                    <input type="tel" id="number-phone" name="number-phone" required>
+                </div>
+                <button type="button" onclick="showQuestionnaire()">Next</button>
+            </div>
+
+            <!-- Questionnaire Section -->
+            <div id="questionnaire-section" class="form-section hidden">
+                <h2>Questionnaire</h2>
+                <div class="form-group">
+                    <label for="q1">1. Can you describe your previous cooking experience and any formal training you have received?</label>
+                    <textarea id="q1" name="q1" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="q2">2. How do you handle working under pressure, such as during a busy dinner service or when meeting tight deadlines?</label>
+                    <textarea id="q2" name="q2" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="q3">3. What are your favorite cuisines or dishes to cook, and why?</label>
+                    <textarea id="q3" name="q3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="q4">4. Can you provide an example of a time when you had to solve a problem or adapt a recipe on the fly?</label>
+                    <textarea id="q4" name="q4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="q5">5. How do you ensure food safety and hygiene in your cooking practices?</label>
+                    <textarea id="q5" name="q5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="q6">6. What does cooking mean to you in general?</label>
+                    <textarea id="q6" name="q6" required></textarea>
+                </div>
+                <button type="button" onclick="submitForm()">Submit</button>
+            </div>
+        </form>
+
+        <!-- Success Message -->
+        <div id="success-message" class="success-message">
+            Congratulations! You have successfully registered.
+        </div>
+
+        <!-- Responses Summary -->
+        <div id="responses-summary" class="responses-summary hidden">
+            <h2>Your Responses</h2>
+            <div id="responses-list"></div>
+        </div>
+    </div>
+
+    <script>
+        function showQuestionnaire() {
+            document.getElementById('registration-section').classList.add('hidden');
+            document.getElementById('questionnaire-section').classList.remove('hidden');
+            document.getElementById('form-title').textContent = 'Questionnaire';
+        }
+
+        function submitForm() {
+            const form = document.getElementById('main-form');
+            const formData = new FormData(form);
+
+            // Collect responses
+            let responses = '';
+            formData.forEach((value, key) => {
+                if (key.startsWith('q')) {
+                    responses += `<p><strong>${key}:</strong> ${value}</p>`;
+                }
+            });
+
+            // Display success message and responses
+            document.getElementById('questionnaire-section').classList.add('hidden');
+            document.getElementById('success-message').classList.remove('hidden');
+            document.getElementById('responses-summary').classList.remove('hidden');
+            document.getElementById('responses-list').innerHTML = responses;
+
+            // Optional: You can also clear the form
+            form.reset();
+        }
+    </script>
+</body>
+</html>
