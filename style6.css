@@ -1,0 +1,124 @@
+/* Reset some default styles */
+body, h1, h2, p, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* Full-height background image container */
+.background-image {
+    background: url('image/cook-2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Added padding for spacing */
+}
+
+/* Logo styling */
+.logo { 
+    width: 200px;
+    cursor: pointer;
+    margin: 0;
+}
+
+/* Navigation bar styling */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li { 
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a { 
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar ul li::after {
+    content: ''; 
+    height: 20px;
+    width: 0%;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.5s ease;
+}
+
+.navbar ul li:hover::after {
+    width: 100%; 
+}
+
+/* Main heading style */
+h1 {
+    text-align: center;
+    color: #0077ff;
+    margin-bottom: 50px;
+}
+
+/* Categories container */
+.categories {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of categories if they exceed container width */
+    gap: 20px; /* Space between categories */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Category container style */
+.category {
+    flex: 1 1 calc(20% - 20px); /* Flex-grow, flex-shrink, and base width */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+/* Category title style */
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Paragraph styling */
+p {
+    margin: 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .category {
+        flex: 1 1 calc(50% - 20px); /* Two columns on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .category {
+        flex: 1 1 100%; /* Full width on small screens */
+    }
+}
+
+
+
+
+
+
+
+
