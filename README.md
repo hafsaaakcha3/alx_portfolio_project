@@ -1,62 +1,46 @@
-# Chez Hafsa - École de Cuisine
+# Chez Hafsa
 
-## Accueil
+Welcome to Chez Hafsa! We're delighted to have you visit our website.
 
-Bienvenue à **Chez Hafsa**, votre destination pour des cours de cuisine authentiques et délicieux. Découvrez notre gamme de cours et ateliers pour tous les niveaux, du débutant au chef expérimenté.
+## About Us
 
-![Image de la page d'accueil](URL_DE_L_IMAGE_D_ACCEUIL)
+Chez Hafsa is a charming place where we serve delicious and authentic dishes. Our mission is to provide an exceptional dining experience with a touch of home.
 
-## À Propos
+## Menu
 
-Chez Hafsa est une école de cuisine dédiée à partager notre passion pour la cuisine authentique. Nos cours sont conçus pour vous enseigner des techniques culinaires tout en vous offrant une expérience pratique enrichissante.
+### Appetizers
 
-### Notre Mission
+- **Hummus**: A smooth blend of chickpeas, tahini, and lemon juice.
+- **Falafel**: Crispy and golden, made from ground chickpeas.
 
-Nous nous engageons à offrir des cours de qualité, adaptés à tous les niveaux, pour que chaque élève puisse maîtriser les techniques culinaires et créer des plats délicieux.
+### Main Courses
 
-## Nos Cours
+- **Lamb Tagine**: Slow-cooked lamb with a blend of spices and dried fruits.
+- **Vegetable Couscous**: A savory mix of vegetables and fluffy couscous.
 
-### Cours de Cuisine
+### Desserts
 
-- **Cuisine Traditionnelle** : Apprenez à préparer des plats classiques avec des techniques éprouvées.
-- **Cuisine Internationale** : Explorez des recettes du monde entier, de l'italienne à l'indienne.
-- **Ateliers de Pâtisserie** : Devenez un expert en pâtisserie avec nos ateliers spécialisés.
+- **Baklava**: Sweet pastry made of layers of filo filled with nuts and honey.
+- **Mango Sorbet**: Refreshing and fruity sorbet made from fresh mangoes.
 
-### Ateliers Spéciaux
+## Contact Us
 
-- **Atelier de Cuisine Vegan** : Découvrez des recettes créatives sans produits d'origine animale.
-- **Cuisine pour Enfants** : Des ateliers amusants pour initier les plus jeunes à la cuisine.
+Feel free to reach out to us through the following ways:
 
-## Instructeurs
+- **Phone**: +212 5 87 23 09 05
+- **Email**: contact@chez-hafsa.netlify.app
+- **Address**: rue mesnana n 09 tanger morroco.
 
-### Chef Hafsa
+## Follow Us
 
-**Chef Hafsa** est une chef expérimentée avec plus de 20 ans dans le domaine de la cuisine. Sa passion pour la gastronomie et son approche pédagogique font d'elle une instructrice exceptionnelle.
+- [Facebook](https://facebook.com/chez-hafsa)
+- [Instagram](https://instagram.com/chez-hafsa)
+- [Twitter](https://twitter.com/chez-hafsa)
 
-### Chef Ali
+## Location
 
-**Chef Ali** est un expert en cuisine méditerranéenne et propose des cours dynamiques et interactifs qui vous permettront de maîtriser des techniques de cuisson uniques.
+![Map](https://via.placeholder.com/400x300?text=Map+Placeholder)
 
-## Témoignages
+We look forward to serving you!
 
-> "Les cours chez Hafsa ont transformé ma manière de cuisiner. Les techniques enseignées sont claires et les recettes délicieuses !" - **Marie L.**
 
-> "Une expérience culinaire inoubliable ! Les ateliers sont bien organisés et les instructeurs très professionnels." - **Paul D.**
-
-## Contact
-
-Pour toute question ou inscription, veuillez nous contacter :
-
-- **Téléphone** : +212 05 87 23 09 05.
-- **Email** : [contact@chez-hafsa.com](mailto:contact@chez-hafsa.com)
-- **Adresse** : rue mesnana n 09 tanger morroco.
-
-## Suivez-nous
-
-- [Facebook](http://facebook.com/chezhafsa)
-- [Instagram](http://instagram.com/chezhafsa)
-- [Twitter](http://twitter.com/chezhafsa)
-
----
-
-© 2024 Chez Hafsa. Tous droits réservés.
