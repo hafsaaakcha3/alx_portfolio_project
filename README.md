@@ -47,9 +47,9 @@ Nous nous engageons à offrir des cours de qualité, adaptés à tous les niveau
 
 Pour toute question ou inscription, veuillez nous contacter :
 
-- **Téléphone** : +33 1 23 45 67 89
+- **Téléphone** : +212 05 87 23 09 05.
 - **Email** : [contact@chez-hafsa.com](mailto:contact@chez-hafsa.com)
-- **Adresse** : 10 Rue de la Gastronomie, 75001 Paris, France
+- **Adresse** : rue mesnana n 09 tanger morroco.
 
 ## Suivez-nous
 
